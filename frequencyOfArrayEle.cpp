@@ -17,32 +17,15 @@ int main(){
         mpp[arr[i]]++;
     }
 
-    // cout<<"Ente the number of elements whose frequency you want to check : "<<endl;
-    // int q;
-    // cin>>q;
-    // while(q--){
-    //      cout<<"Ente the number  whose frequency you want to check : "<<endl;
-    //     int number;
-    //     cin>>number;
-    //     cout<<"Number of frequency of Element you given :"<<endl;
-    //     cout<<mpp[number];
-    // }
+    cout<<"Ente the number of elements whose frequency you want to check : "<<endl;
+    int q;
+    cin>>q;
+    while(q--){
+         cout<<"Ente the number  whose frequency you want to check : "<<endl;
+        int number;
+        cin>>number;
+        cout<<"Number of frequency of Element you given :"<<endl;
+        cout<<mpp[number];
+    }
 
-   
-   for(auto &pair:mpp){
-    //  if (pair.second > max_freq) {
-    //         max_freq = pair.second;
-    //         most_freq_element = pair.first;
-    //     }
-     if(pair.second>max_freq){
-                    most_freq_element=pair.first;
-                    max_freq=pair.second;
-                }
-                if(pair.first<most_freq_element){
-                    most_freq_element=pair.first;
-                    max_freq=pair.second;
-                }
-   }
-   cout << "Element with maximum frequency: " << most_freq_element << endl;
-    cout << "Maximum frequency: " << max_freq << endl;
 }
