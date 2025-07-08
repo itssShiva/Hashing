@@ -8,9 +8,6 @@ int main(){
     cin>>n;
     unordered_map<int,int>mpp;
     int arr[n];
-     int max_element=0;
-     int max_freq=0;
-    int most_freq_element;
     cout<<"Enter all array elements: "<<endl;
     for(int i=0;i<n;i++){
         cin>>arr[i];
@@ -21,7 +18,7 @@ int main(){
     int q;
     cin>>q;
     while(q--){
-         cout<<"Ente the number  whose frequency you want to check : "<<endl;
+         cout<<"Ente the number  whose frequency you want to check :"<<endl;
         int number;
         cin>>number;
         cout<<"Number of frequency of Element you given :"<<endl;
